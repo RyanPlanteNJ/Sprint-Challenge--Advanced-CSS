@@ -160,6 +160,33 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  max-width: 100vw;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #F6F6F6;
+}
+nav .navigation {
+  margin-top: 1%;
+  display: flex;
+  flex-flow: row;
+  justify-content: none;
+  align-items: none;
+  text-align: center;
+}
+nav .navigation a {
+  text-decoration: none;
+  color: #5E6164;
+  margin-right: 20px;
+}
+nav .navigation p {
+  font-weight: bold;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
