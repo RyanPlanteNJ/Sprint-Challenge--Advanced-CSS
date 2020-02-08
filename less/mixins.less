@@ -5,15 +5,15 @@
   justify-content: @justify;
   align-items: @align;
 }//generic alignment originally used fr nav
-.btn-back{
+.btn-back(@color,@background){
   display: inline-block;
-  background-color: @btn-bg-color;
-  color: @porcelain;
+  background-color: @background;
+  color: @color;
   padding: 1.05rem 3rem;
   font-size: 2.5rem;
   border-radius: 10px;
     &:hover{
-      background-color: @porcelain;
-      color: @btn-bg-color;
+      background-color: @color;
+      color: @background;
     }
 }//multi-variable mixin with included hover
