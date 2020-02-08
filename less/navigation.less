@@ -1,10 +1,16 @@
 // Navigation code here
 nav{
-  max-width: 100vw;
+@media (min-width:900px){
+  width: 100%;
+	top: 0px;
+	position: fixed;
+	z-index: 0;
+  opacity: 90%;
+}
   height: 100px;
   margin: 0 auto;
   .navalignment(column,center,center);
-  text-align: center;
+  // text-align: center;
   background-color: @nav-bg;
     h2{
       font-size: 5rem;
@@ -13,8 +19,7 @@ nav{
         }
     }
     .navigation{
-      margin-top: ;
-    .navalignment(row,none,none);
+      .navalignment(row,none,none);
         text-align: center;
         a{
           text-decoration: none;
@@ -24,5 +29,5 @@ nav{
           p{
             font-weight: bold;
           }
-    }
-  }
+    }//naviation
+  }//nav
